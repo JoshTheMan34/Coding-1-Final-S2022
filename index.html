@@ -8,12 +8,15 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     
-    <link href="styles.css" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="styles.css" type="text/css">
     <script src="https://kit.fontawesome.com/b58d49b83c.js" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/0000000000.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
     <script src="https://unpkg.com/scrollreveal"></script>
     <title>The Final of a Lifetime</title>
+    <link rel="shortcut icon" href="img/JF LOGO.png"> 
+    
   </head>
   <body>
 
@@ -24,151 +27,192 @@
     <script src="index.js"></script>
     
     <!--Navbar-->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+    <section>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html"><img src="img/JF LOGO.png" style="height: 45px; width: 45px ;"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="navbar-brand" href="index.html"><img src="img/JF LOGO.png" style="height: 45px; width: 45px ;"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav">
-            <li class="nav-item">
+              <li class="nav-item">
               <a class="nav-link active zoom" aria-current="page" id="navbar-text" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
+              </li>
+              <li class="nav-item">
               <a class="nav-link zoom" id="navbar-text" href="contact.html">Contact</a>
-            </li>
-            <li class="nav-item">
+              </li>
+              <li class="nav-item">
               <a class="nav-link zoom" id="navbar-text"href="about.html">About</a>
-            </li>
+              </li>
           </ul>
-        </div>
+          </div>
       </div>
-    </nav>
+      </nav>
+  </section>
 
 <!--Carousel-->
-<section class="Carousel">
-  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <figure class="txtover">
-          <img src="img/longbeach.avif" class="d-block w-100" alt="sunsetbeach">
-          <figcaption class="py-4 carouselsreveal">
-                Welcome
-          </figcaption>
-        </figure>
+  <section class="Carousel">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
-      <div class="carousel-item">
-        <figure class="txtover">
-          <img src="img/beautifulocean.jpg" class="d-block w-100" alt="beautifulocean">
-          <figcaption class="py-4 carouselsreveal">
-                Welcome
-          </figcaption>
-        </figure>    </div>
-      <div class="carousel-item">
-        <figure class="txtover">
-          <img src="img/beach.jpg" class="d-block w-100" alt="beach">
-          <figcaption class="py-4 carouselsreveal">
-                Welcome
-          </figcaption>
-        </figure>    </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <figure class="txtover">
+            <img src="img/longbeach.avif" class="d-block w-100" alt="sunsetbeach">
+            <figcaption class="py-4 carouselsreveal">
+                  Welcome
+            </figcaption>
+          </figure>
+        </div>
+        <div class="carousel-item">
+          <figure class="txtover">
+            <img src="img/beautifulocean.jpg" class="d-block w-100" alt="beautifulocean">
+            <figcaption class="py-4 carouselsreveal">
+                  Welcome
+            </figcaption>
+          </figure>    </div>
+        <div class="carousel-item">
+          <figure class="txtover">
+            <img src="img/beach.jpg" class="d-block w-100" alt="beach">
+            <figcaption class="py-4 carouselsreveal">
+                  Welcome
+            </figcaption>
+          </figure>    </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-</section>
-<!--Cards-->
-<section class="cards">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4">
-        <div class="card" style="width: 18rem;">
-          <img src="img/mountains.png" class="card-img-top" alt="mountains">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Link to somewhere</a>
+  </section>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#3c3a37" fill-opacity="1" d="M0,192L48,208C96,224,192,256,288,234.7C384,213,480,139,576,112C672,85,768,107,864,149.3C960,192,1056,256,1152,250.7C1248,245,1344,171,1392,133.3L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>    
+  <!--Cards-->
+  <section class="wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card text-white card-has-bg click-col" style="background-image:url('img/JesusChrist.avif');">
+            <img class="card-img d-none" src="img/JesusChrist.avif" alt="Jesus_Christ_Image">
+            <div class="card-img-overlay d-flex flex-column">
+              <div class="card-body">
+                <small class="card-meta mb-2">I Love Jesus Christ</small>
+                <h4 class="card-title mt-0 "><a class="text-white" href="https://unsplash.com/photos/SgN2eHyy1iM">Jesus Christ is at the center of my life and everything I do.</a></h4>
+                <small><i class="far fa-clock"></i> May 17, 2022</small>
+              </div>
+              <div class="card-footer">
+                <div class="media">
+                  <img class="mr-3 rounded-circle" src="img/JoshuaFugateATHECOClosup.jpg" alt="Generic placeholder image" style="max-width:50px">
+                  <div class="media-body">
+                    <h6 class="my-0 text-white d-block">Joshua Fugate</h6>
+                    <small>Sophomore at Madison Academic</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-white card-has-bg click-col" style="background-image:url('img/codingimg.avif');">
+            <img class="card-img d-none" src="img/codingimg.avif" alt="Coding_Image">
+            <div class="card-img-overlay d-flex flex-column">
+              <div class="card-body">
+                <small class="card-meta mb-2">Coding</small>
+                <h4 class="card-title mt-0 "><a class="text-white" href="https://unsplash.com/photos/koOdUvfGr4c">Coding has become an important part of my life this past semester</a></h4>
+                <small><i class="far fa-clock"></i> May 17, 2022</small>
+              </div>
+              <div class="card-footer">
+                <div class="media">
+                  <img class="mr-3 rounded-circle" src="img/JoshuaFugateATHECOClosup.jpg" alt="Generic placeholder image" style="max-width:50px">
+                  <div class="media-body">
+                    <h6 class="my-0 text-white d-block">Joshua Fugate</h6>
+                    <small>Sophomore at Madison Academic</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-white card-has-bg click-col" style="background-image:url('img/Track&Field.avif');">
+            <img class="card-img d-none" src="img/Track&Field.avif" alt="Track_&_Field_Image">
+            <div class="card-img-overlay d-flex flex-column">
+              <div class="card-body">
+                <small class="card-meta mb-2">Track & Field and Cross Country</small>
+                <h4 class="card-title mt-0 "><a class="text-white" href="https://unsplash.com/photos/Upujzc1TNVA">Cross Country and Track are both incredible sports and two of my favorite things.</a></h4>
+                <small><i class="far fa-clock"></i> May 17, 2022</small>
+              </div>
+              <div class="card-footer">
+                <div class="media">
+                  <img class="mr-3 rounded-circle" src="img/JoshuaFugateATHECOClosup.jpg" alt="Generic placeholder image" style="max-width:50px">
+                  <div class="media-body">
+                    <h6 class="my-0 text-white d-block">Joshua Fugate</h6>
+                    <small>Sophomore at Madison Academic</small>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="col-md-4">
-        <div class="card" style="width: 18rem;">
-          <img src="img/red.png" class="card-img-top" alt="red">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Link to somewhere</a>
-          </div>
+    </div>
+  </section>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="footer-wave"><path fill="#3c3a37" fill-opacity="1" d="M0,192L80,208C160,224,320,256,480,250.7C640,245,800,203,960,197.3C1120,192,1280,224,1360,240L1440,256L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z" id="footer-wave-path"></path></svg>
+  <section class="footer">
+    <footer>
+      <div class="footer-left col-md-4 col-sm-6">
+        <p class="about">
+          <span> About Us!</span> 
+          This is my Coding 1 Final Project!
+          <br>
+          Here is our <a href="https://joshtheman34.github.io/Coding-1-Final-S2022/" class="livelink">link</a>
+        </p>
+        <div class="icons">
+          <a href="https://www.facebook.com/JacksonMadisonCountySchools/"><i class="fa fa-facebook"></i></a>
+          <a href="https://twitter.com/jmcschools"><i class="fa fa-twitter"></i></a>
+          <a href="https://www.instagram.com/jmcschools/"><i class="fa fa-instagram"></i></a>
         </div>
       </div>
-      <div class="col-md-4">
-        <div class="card" style="width: 18rem;">
-          <img src="img/snow.png" class="card-img-top" alt="snow">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Link to somewhere</a>
-          </div>
+      <div class="footer-center col-md-4 col-sm-6">
+        <div>
+          <i class="fa-solid fa-map-location-dot"></i>
+          <p><span> 575 Lambuth Ave</span> Jackson, TN 38301</p>
+        </div>
+        <div>
+          <i class="fa-solid fa-mobile"></i>      
+          <p>
+            <a href="tel:731-427-3501">
+              P 731-427-3501 
+            </a>
+            <br> 
+            <a href="tel:731-427-3587">
+              F 731-427-3587
+            </a>
+          </p>
+        </div>
+        <div>
+          <i class="fa-solid fa-inbox"></i>
+          <p><a href="mailto:joshua.fugate@students.jmcss.org"> joshua.fugate@students.jmcss.org</a></p>
         </div>
       </div>
-    </div>
-  </div>
-</section>
-
-<footer class="footer">
-  <div class="footer-left col-md-4 col-sm-6">
-    <p class="about">
-      <span> About Us!</span> 
-      This is my Coding 1 Final Project!
-      <br>
-      Here is our <a href="https://joshtheman34.github.io/Coding-1-Final-S2022/" class="livelink">link</a>
-    </p>
-    <div class="icons">
-      <a href="https://www.facebook.com/JacksonMadisonCountySchools/"><i class="fa fa-facebook"></i></a>
-      <a href="https://twitter.com/jmcschools"><i class="fa fa-twitter"></i></a>
-      <a href="https://www.instagram.com/jmcschools/"><i class="fa fa-instagram"></i></a>
-    </div>
-  </div>
-  <div class="footer-center col-md-4 col-sm-6">
-    <div>
-      <i class="fa-solid fa-map-location-dot"></i>
-      <p><span> 575 Lambuth Ave</span> Jackson, TN 38301</p>
-    </div>
-    <div>
-      <i class="fa-solid fa-mobile"></i>      
-      <p>
-        P 731-427-3501 
-        <br> 
-        F 731-427-3587
-      </p>
-    </div>
-    <div>
-      <i class="fa-solid fa-inbox"></i>
-      <p><a href="mailto:joshua.fugate@students.jmcss.org"> joshua.fugate@students.jmcss.org</a></p>
-    </div>
-  </div>
-  <div class="footer-right col-md-4 col-sm-6">
-    <h2> Joshua's<span> Coding 1 Final</span></h2>
-    <p class="menu">
-      <a href="index.html"> Home</a> |
-      <a href="contact.html"> Contact</a> |
-      <a href="about.html"> About</a> 
-    </p>
-    <p class="name"> Joshua Fugate & Co &copy; 2022</p>
-  </div>
-</footer>
-
+      <div class="footer-right col-md-4 col-sm-6">
+        <h2> Joshua's<span> Coding 1 Final</span></h2>
+        <p class="menu">
+          <a href="index.html"> Home</a> |
+          <a href="contact.html"> Contact</a> |
+          <a href="about.html"> About</a> 
+        </p>
+        <p class="name"> Joshua Fugate & Co &copy; 2022</p>
+      </div>
+    </footer>
+  </section>
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
